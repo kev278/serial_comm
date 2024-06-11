@@ -1,0 +1,12 @@
+timestamp:  value
+targetAngRoll,targetAngPitch,targetAngYaw: value * 0.02197265625 degree
+targetSpeedRoll,targetSpeedPitch,targetSpeedYaw: value * 0.06103701895 degree/sec
+frameCamRoll,frameCamPitch,frameCamYaw:  value * 0.02197265625 degree
+gyroRoll,gyroPitch,gyroYaw: value * 0.06103701895 degree/sec
+accRoll,accPitch,accYaw:  (value / 512) G (sign inverted, in END coords)
+imuRoll,imuPitch,imuYaw: value * 0.02197265625 degree
+motPowerRoll,motPowerPitch,motorPowerYaw: (value / 100)% of motor torque (-ve sign:reverse direction)
+current:  value * mA
+batLevel:  value * 0.01V
+serialErrCount:  value
+i2cErrCount:  value
